@@ -24,18 +24,29 @@ eleventyNavigation:
   <input type="text" id="fname" name="fname" ><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit">
 </form> 
         </div>
         <div class="col">
           <form action="/action_page.php" novalidate>
             <label for="email">Enter your email:</label>
             <input type="email" id="email" name="email"><br><br>
-            <input type="submit">
           </form>
         </div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
+        <div class="col">
+          
+          <form action="/action_page.php">
+            <label for="subject">Message us</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          </form>
+
+        </div>
+        <div class="col">
+          <form action="/action_page.php">
+            <input type="submit" value="Submit">
+          </form> 
+
+        </div>
       </div>
     </div>
   </body>
